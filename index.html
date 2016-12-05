@@ -1,10 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Седона главная</title>
+	<link rel="stylesheet" href="css/normalise.css">
 </head>
 <body>
-	
+	<div class="main-wrapper">
+		<header class="header">
+			<nav class="header-menu">
+				<ul class="header-menu__list">
+					<li class="header-menu__item"><a href="" title="">Информация</a></li>
+					<li class="header-menu__item"><a href="" title="">Фото и видео</a></li>
+					<li class="header-menu__item"><a href="" title=""><img src="" alt="" class="header__logo"></a></li>
+					<li class="header-menu__item"><a href="" title="">Карта штата</a></li>
+					<li class="header-menu__item"><a href="" title="">Гостиницы</a></li>
+				</ul>
+			</nav>
+			<p class="header__paragraph--blue">Welcome</p>
+			<p class="header__paragraph--italic">to the garden</p>
+			<h1 class="header__title">Sedona</h1>
+			<p class="header__paragraph--white">"Because the Grand Canyon sucks!"</p>
+		</header>
+		<section class="content">
+			<h2 class="content__title">Седона - небольшой городок в Аризоне, заслуживающий большего!</h2>
+			<p class="content__paragraph">Рассмотрим 5 причин, по которым седона круче, чем Гранд Каньон!</p>
+			<section class="reason--wide-left">
+				<h3 class="reason__title">Настоящий городок</h3>
+				<p class="reason__number">№1</p>
+				<p class="reason__paragraph">Седона - не аттракцион для туристов, там течет своя жизнь</p>
+			</section>
+			<section class="recommendation">
+				<h4 class="recommendation__title">Жилье</h4>
+				<p class="recommendation__paragraph">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+			</section>
+			<section class="recommendation">
+				<h4 class="recommendation__title">Еда</h4>
+				<p class="recommendation__paragraph">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+			</section>
+			<section class="recommendation">
+				<h4 class="recommendation__title">Сувениры</h4>
+				<p class="recommendation__paragraph">Не только китайского, но и местного производства!</p>
+			</section>
+			<section class="reason--wide-right">
+				<h3 class="reason__title">Там есть мост Дьявола</h3>
+				<p class="reason__number">№2</p>
+				<p class="reason__paragraph">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+			</section>
+			<section class="reason--wide">
+				<h3 class="reason__title">Небольшая площадь</h3>
+				<p class="reason__number">№3</p>
+				<p class="reason__paragraph">Все достопримечательности находятся очень близко</p>
+			</section>
+			<section class="reason--wide">
+				<h3 class="reason__title">Красивая дорога</h3>
+				<p class="reason__number">№4</p>
+				<p class="reason__paragraph">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+			</section>
+			<section class="reason--wide">
+				<h3 class="reason__title">Мало туристов</h3>
+				<p class="reason__number">№5</p>
+				<p class="reason__paragraph">Большинство едет в гранд каньон и толпится там</p>
+			</section>
+			<section class="search-hotel">
+				<p class="search-hotel__paragraph--bold">Заинтересовались?</p>
+				<p class="search-hotel__paragraph">Укажите предполагаемые даты поездки,</p>
+				<p class="search-hotel__paragraph">и мы покажем вам лучшие предложения гостиниц в седоне</p>
+				<div class="search-hotel__map"></div>
+				<form action="search-hotel.html" mathod="get" class="search-form">
+					<h2 class="search-form__title">Поиск гостиницы в Седоне</h2>
+					<label for="" class="search-form__label"><input type="text" class="search-form__input--date"></label>
+					<label for="" class="search-form__label"><input type="text" class="search-form__input--date"></label>
+					<label for="" class="search-form__label--short"><input type="text" class="search-form__input--date"></label>
+					<label for="" class="search-form__label--short"><input type="text" class="search-form__input--date"></label>
+					<input type="submit" class="search-form__bn-send" value="Найти">
+				</form>
+			</section>
+		</section>
+		<footer class="footer">
+			<section class="footer__hashtag">#Visitsedona</section>
+			<div class="social-list">
+				<a href="#" class="social-list__bn" title="Twitter"></a>
+				<a href="#" class="social-list__bn" title="Facebook"></a>
+				<a href="#" class="social-list__bn" title="Youtube"></a>
+			</div>
+			<section class="copyright">
+				<p class="copyright__paragraph">Website by</p>
+				<img src="" alt="" title="HTML academy">
+			</section>
+		</footer>
+	</div>
 </body>
 </html>
